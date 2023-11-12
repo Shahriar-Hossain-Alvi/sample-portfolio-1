@@ -1,0 +1,552 @@
+@media only screen and (min-width:0px) and (max-width:360px){
+    .container{
+        padding: 0%;
+    }
+
+    /* navbar part start */
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu-part ul a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    /* navbar part end */
+
+    /* banner part start */
+    .banner-main{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .banner-left{
+        width: 100%;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+
+    .banner-right{
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner-right h2 {
+        font-size: 27px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .banner-right p{
+        text-align: center;
+    }
+
+    /* banner part end */
+
+
+    /* work part start */
+    .work-head{
+        padding: 20px;
+    }
+
+    .work-head h2{
+        font-size: 25px;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .work-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-one{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    /* work part end */
+
+
+    /* review part start */
+    .review-all h1{
+        font-style: italic;
+    }
+    
+    .review-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-one{
+        padding: 20px 10px;
+        width: 90%;
+        
+    }
+
+    /* review part end */
+
+    /* footer part start */
+    #footer{
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-text p{
+        padding-bottom: 5px;
+    }
+
+    .contact-text h6{
+        padding-bottom: 5px;
+    }
+
+    .context-text-one {
+        padding-bottom: 10px;
+    }
+
+    .context-text-four p{
+        padding-bottom: 10px;
+    }
+    /* footer part end */
+
+    /* copywright part start */
+
+    #copy{
+        padding: 10px 0;
+    }
+
+    .copy-part h3{
+        font-size: 10px;
+        color: #bdbcbc;
+    }
+/* copywright part end */
+   
+}
+
+@media only screen and (min-width:361px) and (max-width:575px){
+    .container{
+        padding: 0%;
+    }
+
+    /* navbar part start */
+    nav{
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .menu-part ul a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    /* navbar part end */
+
+    /* banner part start */
+    .banner-main{
+        padding: 20px 0;
+        gap: 0;
+    }
+
+    .banner-left{
+        width: 40%;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+
+    .banner-right{
+        width: 60%;
+        padding: 0 5px;
+        align-items: center;
+        align-self: center;
+    }
+
+    .banner-right h2 {
+        font-size: 27px;
+        padding-bottom: 10px;
+        line-height: 30px;
+    }
+
+    /* banner part end */
+
+
+    /* work part start */
+    .work-head{
+        padding: 20px;
+    }
+
+    .work-head h2{
+        font-size: 25px;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .work-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-one{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    /* work part end */
+
+
+    /* review part start */
+    .review-all h1{
+        font-style: italic;
+    }
+    
+    .review-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-one{
+        padding: 20px 10px;
+        width: 90%;
+        
+    }
+
+    /* review part end */
+
+    /* footer part start */
+    #footer{
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-text p{
+        padding-bottom: 5px;
+    }
+
+    .contact-text h6{
+        padding-bottom: 5px;
+    }
+
+    .context-text-one {
+        padding-bottom: 10px;
+    }
+
+    .context-text-four p{
+        padding-bottom: 10px;
+    }
+    /* footer part end */
+
+    /* copywright part start */
+
+    #copy{
+        padding: 10px 0;
+    }
+
+    .copy-part h3{
+        font-size: 10px;
+        color: #bdbcbc;
+    }
+/* copywright part end */ 
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .container{
+        padding: 0%;
+    }
+
+    /* navbar part start */
+    nav{
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu-part ul a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    /* navbar part end */
+
+    /* banner part start */
+    .banner-main{
+        padding: 20px 0;
+        gap: 0;
+    }
+
+    .banner-left{
+        width: 50%;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+
+    .banner-right{
+        width: 60%;
+        padding: 5px;
+        align-items: center;
+        align-self: center;
+    }
+
+    .banner-right h2 {
+        font-size: 27px;
+        padding-bottom: 10px;
+        line-height: 30px;
+    }
+
+    /* banner part end */
+
+
+    /* work part start */
+    .work-head{
+        padding: 20px;
+    }
+
+    .work-head h2{
+        font-size: 25px;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .work-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-one{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    /* work part end */
+
+
+    /* review part start */
+    .review-all h1{
+        font-style: italic;
+    }
+    
+    .review-main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-one{
+        padding: 20px 10px;
+        width: 90%;
+        
+    }
+
+    /* review part end */
+
+    /* footer part start */
+    #footer{
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-text p{
+        padding-bottom: 5px;
+    }
+
+    .contact-text h6{
+        padding-bottom: 5px;
+    }
+
+    .context-text-one {
+        padding-bottom: 10px;
+    }
+
+    .context-text-four p{
+        padding-bottom: 10px;
+    }
+    /* footer part end */
+
+    /* copywright part start */
+
+    #copy{
+        padding: 10px 0;
+    }
+
+    .copy-part h3{
+        font-size: 10px;
+        color: #bdbcbc;
+    }
+/* copywright part end */   
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        padding: 0%;
+    }
+
+    /* navbar part start */
+    nav{
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu-part ul a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    /* navbar part end */
+
+    /* banner part start */
+    .banner-main{
+        padding: 20px 0;
+        gap: 0;
+    }
+
+    .banner-left{
+        width: 50%;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+
+    .banner-right{
+        width: 60%;
+        padding: 5px;
+        align-items: center;
+        align-self: center;
+    }
+
+    .banner-right h2 {
+        font-size: 27px;
+        padding-bottom: 10px;
+        line-height: 30px;
+    }
+
+    /* banner part end */
+
+
+    /* work part start */
+    .work-head{
+        padding: 20px;
+    }
+
+    .work-all{
+        padding: 0 5px;
+    }
+
+    .work-head h2{
+        font-size: 25px;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    .work-main{
+        flex-direction: row;
+    }
+
+    .work-one{
+        width: 30%;
+    }
+
+    .work-des{
+        padding: 10px 0;
+    }
+    /* work part end */
+
+
+    /* review part start */
+    .review-all h1{
+        font-style: italic;
+    }
+    
+    .review-main{
+        flex-direction: row;
+        padding: 0 10px;
+    }
+
+    .review-one{
+        padding: 20px 10px;
+        width: 90%;
+        
+    }
+
+    .review-details{
+        justify-content: center;
+    }
+
+    /* review part end */
+
+    /* footer part start */
+    #footer{
+        margin-top: 30px;
+        padding: 20px 0;
+    }
+
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-text p{
+        padding-bottom: 5px;
+    }
+
+    .contact-text h6{
+        padding-bottom: 5px;
+    }
+
+    .context-text-one {
+        padding-bottom: 10px;
+    }
+
+    .context-text-four p{
+        padding-bottom: 10px;
+    }
+    /* footer part end */
+
+    /* copywright part start */
+
+    #copy{
+        padding: 10px 0;
+    }
+
+    .copy-part h3{
+        font-size: 10px;
+        color: #bdbcbc;
+    }
+/* copywright part end */ 
+}
